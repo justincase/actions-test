@@ -8,7 +8,6 @@ on:
 jobs:
   publish:
     name: Push gem to RubyGems.org
-    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     
     permissions:
