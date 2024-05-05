@@ -1,3 +1,5 @@
+name: Publish gem
+
 on:
   push:
     tags:
